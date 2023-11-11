@@ -32,7 +32,7 @@ public class Aluno {
 		this.serie = serie;
 	}
 	
-	public void addAluno(int aluno) {
+	public void addAluno(Integer aluno) {
 		aluno += aluno;
 		
 	}
