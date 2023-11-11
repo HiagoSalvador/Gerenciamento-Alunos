@@ -60,9 +60,9 @@ public class Programa {
 	
 	
 
-	private static void sairDoPrograma(List<Aluno> list, Scanner scanner) {
+	private static void sairDoPrograma(List<Aluno> list, Scanner scanner) 
 			
-	}
+
 
 	private static void buscarPorId(List<Aluno> list, Scanner scanner) {
 	    System.out.println("Informe o ID:");
@@ -82,8 +82,7 @@ public class Programa {
 	private static void exibirAluno(List<Aluno> list, Scanner scanner) {
 		for(Aluno aluno: list) {
 			System.out.println(aluno);
-		}
-		
+		}	
 	}
 
 	private static void adicionarAluno(List<Aluno> list, Scanner scanner) {
