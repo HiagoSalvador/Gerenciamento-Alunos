@@ -55,21 +55,17 @@ public class Programa {
 	    	System.out.println("Programa encerrado");
 		
 	     
-	    	scanner.close();
-		
-
-
+	     scanner.close();
 	}
 	
 	
 
 	private static void sairDoPrograma(List<Aluno> list, Scanner scanner) {
-		
-		
+			
 	}
 
 	private static void buscarPorId(List<Aluno> list, Scanner scanner) {
-		System.out.println("Informe o ID:");
+	    System.out.println("Informe o ID:");
 	    Integer id = scanner.nextInt();
 	
 	Optional<Aluno> alunoEncontrado = list.stream()
@@ -80,9 +76,7 @@ public class Programa {
 	        System.out.println("Aluno encontrado: " + aluno);
 	    } else {
 	        System.out.println("Aluno com ID " + id + " não encontrado.");
-	    }
-	
-		
+	    }	
 	}
 
 	private static void exibirAluno(List<Aluno> list, Scanner scanner) {
@@ -105,6 +99,5 @@ public class Programa {
 		Aluno aluno = new Aluno(id, nome, serie);
 		System.out.println("Aluno adicionado com sucesso!");
 		list.add(aluno);
-	}
-	
+	}	
 }
